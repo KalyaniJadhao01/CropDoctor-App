@@ -1,52 +1,73 @@
-# CropDoctor-App
-CropDoctor is a smart crop health diagnosis app that detects plant diseases from leaf images using AI, helping farmers make faster and better farming decisions.
+# Welcome to your Lovable project
 
+## Project info
 
-# CropDoctor App
-**AI-powered crop disease diagnosis for smarter farming**
-CropDoctor is a machine learning–based application that detects and classifies crop diseases using leaf images.  
-The app helps farmers, agronomists, and agri-tech platforms identify plant diseases at an early stage and take timely preventive actions to reduce crop loss.
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
----
+## How can I edit this code?
 
-## Problem Statement
-Crop diseases are one of the major reasons for reduced agricultural productivity.  
-Traditional disease identification requires expert knowledge, which is often inaccessible to small-scale farmers.  
-Late detection leads to increased crop damage, excessive pesticide usage, and financial loss.
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## Solution Overview
-CropDoctor uses **deep learning and computer vision** to analyze leaf images and accurately predict crop diseases.  
-Users can upload or capture a leaf image, and the system provides:
-- Disease classification
-- Faster diagnosis
-- Decision support for early intervention
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-The solution is scalable and can be integrated into mobile apps, web platforms, or agricultural advisory systems.
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## Key Features
-- Leaf-based disease recognition
-- CNN-based deep learning model
-- Image preprocessing & classification
-- Fast and automated predictions
-- Scalable for real-world agricultural use
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Technology Stack
-- **Programming Language:** Python  
-- **Machine Learning:** TensorFlow  
-- **Model Type:** Convolutional Neural Network (CNN)  
-- **Domain:** Computer Vision, AI/ML  
-- **Google Technologies:** TensorFlow (Build with Google)
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## How to Run the Project (Basic)
-1. Clone the repository
-   ```bash
-   git clone https://github.com/KalyaniJadhao01/CropDoctor-App.git
-   cd CropDoctor-App
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
